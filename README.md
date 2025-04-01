@@ -28,7 +28,7 @@
 - La detección de vasos debe ser precisa y evitar falsos positivos.
 - La integración con ESP32 debe permitir la recolección de datos sin afectar la automatización principal.
 
-## Diagrama de Circuito Eléctrico
+## Diagrama HMI
 _(Agregar imagen del diagrama)_
 
 ## Definición de Variables
@@ -49,6 +49,8 @@ _(Agregar imagen del diagrama)_
 ## Diagrama de Actividades
 ![image](https://github.com/user-attachments/assets/b9a96d61-5f3d-4f70-941f-7eeb68ecad50)
 
+## Maqueta 
+![image](https://github.com/user-attachments/assets/b9a96d61-5f3d-4f70-941f-7eeb68ecad50)
 
 ## Programación LADDER
 _(Agregar código y documentación de la programación en Ladder)_
