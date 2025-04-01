@@ -4,18 +4,6 @@
 ## Descripción
 Este proyecto consiste en la automatización de una máquina dispensadora de café para la empresa **Café & Máquinas S.A.** utilizando **PLC, sensores y actuadores**. La automatización permitirá optimizar el proceso de preparación de café, incorporando un sistema dispensador automático de vasos y un mecanismo de conteo de unidades servidas.
 
-## Componentes Utilizados
-
-| Componente          | Función |
-|---------------------|---------|
-| PLC OpenPLC        | Control lógico del sistema |
-| Sensor infrarrojo  | Detección de vaso y conteo |
-| Bombas de agua (3) | Transporte de líquidos |
-| Motor con varilla  | Mezcla de café y agua |
-| Botones (Start/Stop) | Inicio y parada del proceso |
-| LEDs indicadores   | Estado del proceso |
-| ESP 32  | Estado del proceso |
-
 ## Arquitectura del Sistema
 ### Componentes Utilizados
 - **PLC compatible con OpenPLC** (para controlar el proceso)
