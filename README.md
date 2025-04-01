@@ -68,9 +68,9 @@ _(Agregar código y documentación de la programación en Ladder)_
 
 | Integrante | Rol | Contribuciones |
 |------------|-----|---------------|
-| Integrante 1 | Diseño y programación | Desarrollo del código LADDER, integración de sensores |
-| Integrante 2 | Electrónica y conexiones | Montaje del hardware, conexión de actuadores |
-| Integrante 3 | HMI y simulación | Diseño del HMI en CODESYS, pruebas y validación |
+| Julian Pulido | Diseño y construcción de la maqueta, Wiki |  
+| Integrante 2 | Diseño y construcción de la maqueta, Montaje del hardware, conexión de actuadores, integración de sensores | 
+| Juan Diego | HMI, programación y simulación |  
 
 
 ## 📌 Restricciones y Estándares
