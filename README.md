@@ -1,8 +1,6 @@
 # Wiki-Parcial-2-Automatizacion
 # Automatización de Máquina Dispensadora de Café
 
-## Descripción
-Este proyecto consiste en la automatización de una máquina dispensadora de café para la empresa **Café & Máquinas S.A.** utilizando **PLC, sensores y actuadores**. La automatización permitirá optimizar el proceso de preparación de café, incorporando un sistema dispensador automático de vasos y un mecanismo de conteo de unidades servidas.
 
 ## Arquitectura del Sistema
 ### Componentes Utilizados
@@ -49,7 +47,8 @@ _(Agregar imagen del diagrama)_
 | Cup_Counter | Contador | Entero | Cuenta la cantidad de vasos servidos |
 
 ## Diagrama de Actividades
-_(Agregar imagen del diagrama de flujo del proceso)_
+![image](https://github.com/user-attachments/assets/b9a96d61-5f3d-4f70-941f-7eeb68ecad50)
+
 
 ## Programación LADDER
 _(Agregar código y documentación de la programación en Ladder)_
@@ -69,8 +68,8 @@ _(Agregar código y documentación de la programación en Ladder)_
 | Integrante | Rol | Contribuciones |
 |------------|-----|---------------|
 | Julian Pulido | Diseño y construcción de la maqueta, Wiki |  
-| Integrante 2 | Diseño y construcción de la maqueta, Montaje del hardware, conexión de actuadores, integración de sensores | 
-| Juan Diego | HMI, programación y simulación |  
+| Farouk Abdala | Diseño y construcción de la maqueta, Montaje del hardware | 
+| Juan Diego Garcia | HMI, programación y simulación |  
 
 
 ## 📌 Restricciones y Estándares
