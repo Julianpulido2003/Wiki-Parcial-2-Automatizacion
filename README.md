@@ -1,36 +1,10 @@
 # Wiki-Parcial-2-Automatizacion
-# 📌 Proyecto: Automatización de Máquina Dispensadora de Café
+# Automatización de Máquina Dispensadora de Café
 
-## 📖 Descripción
+## Descripción
 Este proyecto consiste en la automatización de una máquina dispensadora de café para la empresa **Café & Máquinas S.A.** utilizando **PLC, sensores y actuadores**. La automatización permitirá optimizar el proceso de preparación de café, incorporando un sistema dispensador automático de vasos y un mecanismo de conteo de unidades servidas.
 
-## ⚙️ Funcionamiento
-
-1. Preparación
-   - El café líquido y el agua están almacenados en recipientes separados.
-   - Un sensor infrarrojo detecta la presencia de un vaso en la zona de dispensado.
-
-2. Proceso de Mezcla
-   - Dos **bombas de agua** transportan el café y el agua al recipiente de mezcla.
-   - Un **motor con varilla mezcladora** homogeniza el contenido.
-   - Una tercera **bomba** transporta el café preparado al vaso.
-
-3. Indicadores y Control
-   - Un **botón de inicio (Start)** activa el proceso.
-   - Un **botón de parada (Stop)** detiene el proceso en cualquier etapa.
-   - **LEDs indicadores** muestran el estado del proceso:
-     - Paso del agua al mezclador
-     - Paso del café al mezclador
-     - Mezcla en el recipiente
-     - Dispensado del café en el vaso
-   - Si ocurre un error, se mostrará una alerta visual.
-
-4. **Interfaz HMI**
-   - Simulación del proceso en **CODESYS**.
-   - Animaciones en tiempo real que reflejan cada etapa.
-   - Indicadores de sensores y actuadores.
-
-## 🔧 Componentes Utilizados
+## Componentes Utilizados
 
 | Componente          | Función |
 |---------------------|---------|
@@ -40,21 +14,69 @@ Este proyecto consiste en la automatización de una máquina dispensadora de caf
 | Motor con varilla  | Mezcla de café y agua |
 | Botones (Start/Stop) | Inicio y parada del proceso |
 | LEDs indicadores   | Estado del proceso |
+| ESP 32  | Estado del proceso |
 
-## 🖥️ Diagramas
+## Arquitectura del Sistema
+### Componentes Utilizados
+- **PLC compatible con OpenPLC** (para controlar el proceso)
+- **ESP32** (para monitoreo y conectividad)
+- **Bombas de agua** (para transportar el agua y el café líquido)
+- **Motor con varilla mezcladora** (para la mezcla en el recipiente)
+- **Sensor infrarrojo** (para detectar y contar los vasos)
+- **Botón de Start y Stop** (para el control manual del proceso)
+- **Indicadores LED** (para cada etapa del proceso)
+- **Pantalla HMI en CODESYS** (para visualización en tiempo real del estado del sistema)
 
-### 🔌 Conexión de Sensores y Actuadores
-*(Adjuntar diagrama eléctrico aquí)*
+## Funcionamiento
+1. Se presiona el botón de **Start** para iniciar el proceso.
+2. Se activan las bombas de agua para transportar el café y el agua al recipiente de mezcla.
+3. Se acciona el motor mezclador para homogeneizar la mezcla.
+4. Se activa la bomba de salida para dispensar el café en el vaso.
+5. Un sensor infrarrojo verifica la presencia del vaso y contabiliza los vasos servidos.
+6. Los LEDs indican el estado del proceso en cada etapa.
+7. La interfaz HMI muestra el estado del sistema en tiempo real.
+8. Si se detecta un error o se presiona el botón de **Stop**, el proceso se detiene.
 
-### 🔄 Diagrama de Flujo del Proceso
-*(Adjuntar diagrama de actividades/secuencial aquí)*
+## Restricciones de Diseño
+- El proceso debe completarse en un tiempo máximo de 1 minuto.
+- La detección de vasos debe ser precisa y evitar falsos positivos.
+- La integración con ESP32 debe permitir la recolección de datos sin afectar la automatización principal.
 
-## 📝 Código LADDER
-```ladder
-(* Aquí va la lógica de programación en LADDER *)
-```
+## Diagrama de Circuito Eléctrico
+_(Agregar imagen del diagrama)_
 
-## 👥 Roles del Equipo
+## Definición de Variables
+| Nombre | Atributo | Tipo | Descripción |
+|--------|----------|------|-------------|
+| Start_Button | Entrada | Digital | Botón de inicio del proceso |
+| Stop_Button | Entrada | Digital | Botón de parada de emergencia |
+| Water_Pump | Salida | Digital | Activa la bomba de agua |
+| Coffee_Pump | Salida | Digital | Activa la bomba de café |
+| Mixer_Motor | Salida | Digital | Activa el mezclador |
+| Dispenser_Pump | Salida | Digital | Activa la bomba de salida |
+| Cup_Sensor | Entrada | Digital | Detecta la presencia del vaso |
+| LED_Stage1 | Salida | Digital | Indica la etapa de llenado |
+| LED_Stage2 | Salida | Digital | Indica la etapa de mezcla |
+| LED_Stage3 | Salida | Digital | Indica la etapa de dispensado |
+| Cup_Counter | Contador | Entero | Cuenta la cantidad de vasos servidos |
+
+## Diagrama de Actividades
+_(Agregar imagen del diagrama de flujo del proceso)_
+
+## Programación LADDER
+_(Agregar código y documentación de la programación en Ladder)_
+
+## Implementación y Validación
+- **Pruebas de Sensores:** Se verificó el funcionamiento del sensor infrarrojo para la detección del vaso.
+- **Pruebas de Actuadores:** Se probaron las bombas de agua y café, así como el motor mezclador.
+- **Simulación en HMI:** Se desarrolló la interfaz en CODESYS y se verificó su correcto funcionamiento.
+- **Integración del ESP32:** Se validó la recepción de datos y su transmisión a una base de datos externa.
+
+## Conclusiones
+- Se logró la automatización completa del proceso de dispensado de café.
+- La implementación del ESP32 permitió la recolección de datos de manera eficiente.
+- Se identificaron mejoras potenciales en la integración con la pantalla LCD.
+##  Roles del Equipo
 
 | Integrante | Rol | Contribuciones |
 |------------|-----|---------------|
@@ -62,10 +84,6 @@ Este proyecto consiste en la automatización de una máquina dispensadora de caf
 | Integrante 2 | Electrónica y conexiones | Montaje del hardware, conexión de actuadores |
 | Integrante 3 | HMI y simulación | Diseño del HMI en CODESYS, pruebas y validación |
 
-## 🚀 Resultados
-- Simulación funcional en HMI.
-- Implementación del prototipo físico con sensores y actuadores.
-- Documentación completa del proceso.
 
 ## 📌 Restricciones y Estándares
 - **Restricciones**: No se logró implementar la pantalla LCD debido a problemas de compatibilidad con librerías.
