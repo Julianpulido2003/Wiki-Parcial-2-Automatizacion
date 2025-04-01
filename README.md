@@ -65,8 +65,8 @@ _(Agregar código y documentación de la programación en Ladder)_
 - Se identificaron mejoras potenciales en la integración con la pantalla LCD.
 ##  Roles del Equipo
 
-| Integrante | Rol | Contribuciones |
-|------------|-----|---------------|
+| Integrante | Rol |
+|------------|-----|
 | Julian Pulido | Diseño y construcción de la maqueta, Wiki |  
 | Farouk Abdala | Diseño y construcción de la maqueta, Montaje del hardware | 
 | Juan Diego Garcia | HMI, programación y simulación |  
