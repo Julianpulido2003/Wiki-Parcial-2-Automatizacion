@@ -11,17 +11,30 @@
 - **Sensor infrarrojo** (para detectar y contar los vasos)
 - **Botón de Start y Stop** (para el control manual del proceso)
 - **Indicadores LED** (para cada etapa del proceso)
-- **Pantalla HMI en CODESYS** (para visualización en tiempo real del estado del sistema)
+- **4 Relays** ( para lka alimentación correcta de todos los componentes)
+### 1. Diseño
+Se estableció la lógica del funcionamiento del sistema:
+- El agua y el café líquido se almacenan en recipientes separados.
+- Dos bombas de agua transportan los líquidos a un recipiente de mezcla.
+- Un motor con una varilla mezcladora realiza la homogeneización del café.
+- Una tercera bomba dispensa la mezcla en el vaso.
+- Un sensor infrarrojo detecta la presencia del vaso y cuenta la cantidad de unidades servidas.
+- Se utilizan LEDs para indicar cada etapa del proceso.
+- Botones físicos de **Start** y **Stop** controlan la ejecución del sistema.
+- Se implementó una simulación en HMI para visualizar el proceso.
 
-## Funcionamiento
-1. Se presiona el botón de **Start** para iniciar el proceso.
-2. Se activan las bombas de agua para transportar el café y el agua al recipiente de mezcla.
-3. Se acciona el motor mezclador para homogeneizar la mezcla.
-4. Se activa la bomba de salida para dispensar el café en el vaso.
-5. Un sensor infrarrojo verifica la presencia del vaso y contabiliza los vasos servidos.
-6. Los LEDs indican el estado del proceso en cada etapa.
-7. La interfaz HMI muestra el estado del sistema en tiempo real.
-8. Si se detecta un error o se presiona el botón de **Stop**, el proceso se detiene.
+### 2. Desarrollo
+Se utilizó **CODESYS** para la programación del PLC en lenguaje **LADDER** y se integró un **ESP32** para la gestión de sensores y comunicación con el sistema.
+
+### 3. Implementación
+- Se utilizaron **cuatro relays** para la alimentación de los componentes eléctricos.
+- Sensores infrarrojos para la detección de vasos.
+- Bombas de agua y un motor mezclador para la preparación del café.
+- LEDs indicadores para cada fase del proceso.
+- Simulación en HMI mostrando el estado del sistema en tiempo real.
+
+### 4. Validación
+El sistema fue probado en diferentes escenarios para garantizar su correcto funcionamiento. Se verificó el flujo de líquidos, la detección de vasos y la correcta activación de cada componente en su etapa correspondiente.
 
 ## Restricciones de Diseño
 - El proceso debe completarse en un tiempo máximo de 1 minuto.
@@ -49,6 +62,20 @@ _(Agregar imagen del diagrama)_
 ## Diagrama de Actividades
 ![image](https://github.com/user-attachments/assets/b9a96d61-5f3d-4f70-941f-7eeb68ecad50)
 
+## Fabricación de la Maqueta
+
+### Bocetación
+La maqueta se diseñó dividiendo un cubo en tres zonas principales:
+1. **Zona de recipientes y bombas:** Contiene los depósitos de agua, café y mezclador junto con las bombas que transportan los líquidos.
+2. **Zona de circuitos:** Aislada para evitar contacto con líquidos y proteger los componentes eléctricos.
+3. **Zona de dispensación de café:** Donde el café se vierte en el vaso después de ser mezclado.
+
+### Materiales
+- Cartón craft y cartón piedra para la base.
+- Huecos perforados para la instalación de LEDs e integración de mangueras de dispensación.
+- Mecanismo de mezclado con motor y varilla mezcladora.
+- Cuatro relés para la alimentación de los componentes.
+- Cableado estructurado para la conexión de todos los elementos eléctricos.
 ## Maqueta 
 ![image](https://github.com/user-attachments/assets/b9a96d61-5f3d-4f70-941f-7eeb68ecad50)
 
