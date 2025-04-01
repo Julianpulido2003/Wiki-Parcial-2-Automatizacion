@@ -71,7 +71,7 @@ La maqueta se diseñó dividiendo un cubo en tres zonas principales:
 3. **Zona de dispensación de café:** Donde el café se vierte en el vaso después de ser mezclado.
 
 ## Maqueta 
-![image](https://github.com/user-attachments/assets/b9a96d61-5f3d-4f70-941f-7eeb68ecad50)
+
 
 ## Programación LADDER
 _(Agregar código y documentación de la programación en Ladder)_
