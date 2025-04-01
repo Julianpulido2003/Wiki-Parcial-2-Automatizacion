@@ -95,6 +95,6 @@ _(Agregar código y documentación de la programación en Ladder)_
 | Juan Diego Garcia | HMI, programación y simulación |  
 
 
-## 📌 Restricciones y Estándares
-- **Restricciones**: No se logró implementar la pantalla LCD debido a problemas de compatibilidad con librerías.
+##  Oportunidad de Mejora y Estándares
+- **Oportunidad de Mejora**: No se logró implementar la pantalla LCD debido a problemas de compatibilidad con librerías.
 - **Estándares aplicados**: IEC 61131-3 (programación de PLCs), normas de seguridad en automatización industrial.
