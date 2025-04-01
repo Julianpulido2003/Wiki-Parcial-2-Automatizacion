@@ -70,12 +70,6 @@ La maqueta se diseñó dividiendo un cubo en tres zonas principales:
 2. **Zona de circuitos:** Aislada para evitar contacto con líquidos y proteger los componentes eléctricos.
 3. **Zona de dispensación de café:** Donde el café se vierte en el vaso después de ser mezclado.
 
-### Materiales
-- Cartón craft y cartón piedra para la base.
-- Huecos perforados para la instalación de LEDs e integración de mangueras de dispensación.
-- Mecanismo de mezclado con motor y varilla mezcladora.
-- Cuatro relés para la alimentación de los componentes.
-- Cableado estructurado para la conexión de todos los elementos eléctricos.
 ## Maqueta 
 ![image](https://github.com/user-attachments/assets/b9a96d61-5f3d-4f70-941f-7eeb68ecad50)
 
