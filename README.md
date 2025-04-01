@@ -11,7 +11,7 @@
 - **Sensor infrarrojo** (para detectar y contar los vasos)
 - **Botón de Start y Stop** (para el control manual del proceso)
 - **Indicadores LED** (para cada etapa del proceso)
-- **4 Relays** ( para lka alimentación correcta de todos los componentes)
+- **4 Relays** ( para la alimentación correcta de todos los componentes)
 ### 1. Diseño
 Se estableció la lógica del funcionamiento del sistema:
 - El agua y el café líquido se almacenan en recipientes separados.
