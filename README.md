@@ -24,7 +24,7 @@ Se estableció la lógica del funcionamiento del sistema:
 - Se implementó una simulación en HMI para visualizar el proceso.
 
 ### 2. Desarrollo
-Se utilizó **OPENPLC** para la programación del PLC en lenguaje **LADDER**y se integró un **ESP32** para la gestión de sensores y comunicación con el sistema. Además, se realizó la simulación HMI en Codesys mostrando el estado del sistema en tiempo real.
+Se utilizó **OPENPLC** para la programación del PLC en lenguaje **LADDER**y se integró un **ESP32** para la gestión de sensores y comunicación con el sistema. Además, se realizó la simulación HMI en **CODESYS** mostrando el estado del sistema en tiempo real.
 
 ### 3. Implementación
 - Se utilizaron **cuatro relays** para la alimentación de los componentes eléctricos.
