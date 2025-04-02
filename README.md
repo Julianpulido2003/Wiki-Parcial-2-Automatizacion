@@ -45,19 +45,25 @@ El sistema fue probado en diferentes escenarios para garantizar su correcto func
 _(Agregar imagen del diagrama)_
 
 ## Definición de Variables
-| Nombre | Atributo | Tipo | Descripción |
-|--------|----------|------|-------------|
-| Start_Button | Entrada | Digital | Botón de inicio del proceso |
-| Stop_Button | Entrada | Digital | Botón de parada de emergencia |
-| Water_Pump | Salida | Digital | Activa la bomba de agua |
-| Coffee_Pump | Salida | Digital | Activa la bomba de café |
-| Mixer_Motor | Salida | Digital | Activa el mezclador |
-| Dispenser_Pump | Salida | Digital | Activa la bomba de salida |
-| Cup_Sensor | Entrada | Digital | Detecta la presencia del vaso |
-| LED_Stage1 | Salida | Digital | Indica la etapa de llenado |
-| LED_Stage2 | Salida | Digital | Indica la etapa de mezcla |
-| LED_Stage3 | Salida | Digital | Indica la etapa de dispensado |
-| Cup_Counter | Contador | Entero | Cuenta la cantidad de vasos servidos |
+## Definición de Variables
+
+| #  | Nombre           | Atributo | Tipo  | Dirección | Estado Inicial | Descripción |
+|----|----------------|---------|------|------------|----------------|-------------|
+| 1  | START          | Entrada  | BOOL | %IX0.0     | False          | Botón de inicio del proceso. |
+| 2  | STOP           | Entrada  | BOOL | %IX0.1     | False          | Botón de parada de emergencia. |
+| 3  | IR_CUP         | Entrada  | BOOL | %IX0.2     | True           | Sensor infrarrojo que detecta la presencia del vaso. |
+| 4  | PumpA          | Salida   | BOOL | %QX0.0     | True           | Bomba que transporta el agua al recipiente de mezcla. |
+| 5  | PumpB          | Salida   | BOOL | %QX0.1     | True           | Bomba que transporta el café al recipiente de mezcla. |
+| 6  | Mixer          | Salida   | BOOL | %QX0.2     | True           | Motor que acciona la varilla mezcladora. |
+| 7  | PumpCoffee     | Salida   | BOOL | %QX0.3     | True           | Bomba que transporta el café ya mezclado al vaso. |
+| 8  | Lamp_Complete  | Salida   | BOOL | %QX0.4     | False          | LED indicador de que el café está listo. |
+| 9  | DelayCupPlaced | Interno  | TON  | -          | -              | Temporizador que retrasa el inicio si no hay un vaso. |
+| 10 | TimerPumpA     | Interno  | TON  | -          | -              | Temporizador para controlar el tiempo de activación de la bomba de agua. |
+| 11 | TimerPumpB     | Interno  | TON  | -          | -              | Temporizador para la bomba de café. |
+| 12 | TimerMixer     | Interno  | TON  | -          | -              | Temporizador que regula el tiempo de mezclado. |
+| 13 | TimerPumpCoffee| Interno  | TON  | -          | -              | Temporizador que controla el tiempo de dispensación del café al vaso. |
+| 14 | CTUCups        | Interno  | CTU  | -          | -              | Contador que lleva el registro de los vasos servidos. |
+| 15 | current_count  | Interno  | INT  | -          | -              | Variable que almacena la cantidad de vasos servidos. |
 
 ## Diagrama de Actividades
 ![image](https://github.com/user-attachments/assets/b9a96d61-5f3d-4f70-941f-7eeb68ecad50)
