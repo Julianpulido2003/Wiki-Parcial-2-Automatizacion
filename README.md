@@ -42,7 +42,8 @@ El sistema fue probado en diferentes escenarios para garantizar su correcto func
 - La integración con ESP32 debe permitir la recolección de datos sin afectar la automatización principal.
 
 ## Diagrama HMI
-_(Agregar imagen del diagrama)_
+![image](https://github.com/user-attachments/assets/1959da02-3701-4e06-a9a8-130bac9c6873)
+
 
 ## Definición de Variables
 
@@ -84,8 +85,7 @@ La maqueta se diseñó dividiendo un cubo en tres zonas principales:
 
 ## Maqueta 
 
-_(Agregar imagen de la maqueta)_
-
+![image](https://github.com/user-attachments/assets/e6801f5d-95b1-421b-b944-fa0ad94dd805)
 ## Implementación y Validación
 - **Pruebas de Sensores:** Se verificó el funcionamiento del sensor infrarrojo para la detección del vaso.
 - **Pruebas de Actuadores:** Se probaron las bombas de agua y café, así como el motor mezclador.
