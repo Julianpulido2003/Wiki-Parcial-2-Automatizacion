@@ -40,8 +40,6 @@ El sistema fue probado en diferentes escenarios para garantizar su correcto func
 - El proceso debe completarse en un tiempo máximo de 1 minuto.
 - La detección de vasos debe ser precisa y evitar falsos positivos.
 - La integración con ESP32 debe permitir la recolección de datos sin afectar la automatización principal.
-## Diagrama de circuito
-![image](https://github.com/user-attachments/assets/e69e8dec-2540-408f-8359-d42cae8092c0)
 
 
 ## Diagrama HMI
@@ -51,6 +49,9 @@ El sistema fue probado en diferentes escenarios para garantizar su correcto func
 ![image](https://github.com/user-attachments/assets/1dc7ef14-67d7-4824-b015-3daa612ea9cd)
 ## Etapa 3
 ![image](https://github.com/user-attachments/assets/0b506c51-ed29-4724-bc7d-8ebeb67311e5)
+
+## Diagrama de circuito
+![image](https://github.com/user-attachments/assets/e69e8dec-2540-408f-8359-d42cae8092c0)
 
 
 
