@@ -50,10 +50,6 @@ El sistema fue probado en diferentes escenarios para garantizar su correcto func
 ## Etapa 3
 ![image](https://github.com/user-attachments/assets/0b506c51-ed29-4724-bc7d-8ebeb67311e5)
 
-## Diagrama de circuito
-![image](https://github.com/user-attachments/assets/e69e8dec-2540-408f-8359-d42cae8092c0)
-
-
 
 
 
