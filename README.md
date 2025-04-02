@@ -41,7 +41,8 @@ El sistema fue probado en diferentes escenarios para garantizar su correcto func
 - La detección de vasos debe ser precisa y evitar falsos positivos.
 - La integración con ESP32 debe permitir la recolección de datos sin afectar la automatización principal.
 ## Diagrama de circuito
-![image](https://github.com/user-attachments/assets/4062e598-b0cb-4459-8fa0-6a80f89a7b2e)
+![image](https://github.com/user-attachments/assets/e69e8dec-2540-408f-8359-d42cae8092c0)
+
 
 ## Diagrama HMI
 ## Etapa 1
