@@ -42,7 +42,15 @@ El sistema fue probado en diferentes escenarios para garantizar su correcto func
 - La integración con ESP32 debe permitir la recolección de datos sin afectar la automatización principal.
 
 ## Diagrama HMI
-![image](https://github.com/user-attachments/assets/86a8e0ed-4d83-460e-8109-55754e0ba3fa)
+## Etapa 1
+![image](https://github.com/user-attachments/assets/9f8a7a83-97b8-4167-b2f5-d24192d10634)
+## Etapa 2
+![image](https://github.com/user-attachments/assets/1dc7ef14-67d7-4824-b015-3daa612ea9cd)
+## Etapa 3
+![image](https://github.com/user-attachments/assets/0b506c51-ed29-4724-bc7d-8ebeb67311e5)
+
+
+
 
 
 ## Definición de Variables
