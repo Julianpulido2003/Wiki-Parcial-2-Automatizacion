@@ -116,3 +116,12 @@ La maqueta se diseñó dividiendo un cubo en tres zonas principales:
 ##  Oportunidad de Mejora y Estándares
 - **Oportunidad de Mejora**: No se logró implementar la pantalla LCD debido a problemas de compatibilidad con librerías.
 - **Estándares aplicados**: IEC 61131-3 (programación de PLCs), normas de seguridad en automatización industrial.
+
+## Referencias 
+[1] OpenAI, "ChatGPT," [Modelo de lenguaje de gran tamaño]. [En línea]. Disponible: https://chat.openai.com/chat. [Accedido: 1-abr-2025].  
+
+[2] Omron, "Relay Basics: What is a relay?," Omron Electronic Components, 2025. [En línea]. Disponible: https://components.omron.com/us-en/products/basic-knowledge/relays/basics. [Accedido: 28-mar-2025].  
+
+[3] Uelectronics, "FC-51 Sensor de Obstáculos Reflectivo Infrarrojo," Uelectronics, 2025. [En línea]. Disponible: https://uelectronics.com/producto/fc-51-sensor-de-obstaculos-reflectivo-infrarojo/?srsltid=AfmBOooOdfvUuLdtLJZ8TKMXryRRqUpMW1czCX0drSbG5rBXBlx_cZS6. [Accedido: 29-mar-2025].  
+
+[4] B. TechMaker, "How to use an IR Sensor with Arduino | FC-51 IR Sensor Module," *YouTube*, 10-mar-2023. [En línea]. Disponible: https://www.youtube.com/watch?v=BEDMH1PkBuE. [Accedido: 31-mar-2025].  
