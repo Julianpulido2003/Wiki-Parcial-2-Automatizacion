@@ -67,6 +67,13 @@ _(Agregar imagen del diagrama)_
 ## Diagrama de Actividades
 ![image](https://github.com/user-attachments/assets/b9a96d61-5f3d-4f70-941f-7eeb68ecad50)
 
+## Programación LADDER
+![image](https://github.com/user-attachments/assets/79c43f2c-a474-43b0-aaab-e6e0a70d649a)
+
+![image](https://github.com/user-attachments/assets/c35c8ee9-f0db-4fe0-874c-960e26fa9604)
+
+![image](https://github.com/user-attachments/assets/8b11bd5b-dc21-4b9c-825b-b0e7585a64d4)
+
 ## Fabricación de la Maqueta
 
 ### Bocetación
@@ -77,12 +84,7 @@ La maqueta se diseñó dividiendo un cubo en tres zonas principales:
 
 ## Maqueta 
 
-## Programación LADDER
-![image](https://github.com/user-attachments/assets/79c43f2c-a474-43b0-aaab-e6e0a70d649a)
 
-![image](https://github.com/user-attachments/assets/c35c8ee9-f0db-4fe0-874c-960e26fa9604)
-
-![image](https://github.com/user-attachments/assets/8b11bd5b-dc21-4b9c-825b-b0e7585a64d4)
 
 ## Implementación y Validación
 - **Pruebas de Sensores:** Se verificó el funcionamiento del sensor infrarrojo para la detección del vaso.
