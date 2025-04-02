@@ -84,7 +84,7 @@ La maqueta se diseñó dividiendo un cubo en tres zonas principales:
 
 ## Maqueta 
 
-
+_(Agregar imagen de la maqueta)_
 
 ## Implementación y Validación
 - **Pruebas de Sensores:** Se verificó el funcionamiento del sensor infrarrojo para la detección del vaso.
