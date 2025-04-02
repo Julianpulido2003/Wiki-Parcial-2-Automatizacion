@@ -24,14 +24,14 @@ Se estableció la lógica del funcionamiento del sistema:
 - Se implementó una simulación en HMI para visualizar el proceso.
 
 ### 2. Desarrollo
-Se utilizó **CODESYS** para la programación del PLC en lenguaje **LADDER** y se integró un **ESP32** para la gestión de sensores y comunicación con el sistema.
+Se utilizó **OPENPLC** para la programación del PLC en lenguaje **LADDER**y se integró un **ESP32** para la gestión de sensores y comunicación con el sistema. Además, se realizó la simulación HMI en Codesys mostrando el estado del sistema en tiempo real.
 
 ### 3. Implementación
 - Se utilizaron **cuatro relays** para la alimentación de los componentes eléctricos.
-- Sensores infrarrojos para la detección de vasos.
+- Sensor infrarrojo para la detección de vasos.
 - Bombas de agua y un motor mezclador para la preparación del café.
 - LEDs indicadores para cada fase del proceso.
-- Simulación en HMI mostrando el estado del sistema en tiempo real.
+
 
 ### 4. Validación
 El sistema fue probado en diferentes escenarios para garantizar su correcto funcionamiento. Se verificó el flujo de líquidos, la detección de vasos y la correcta activación de cada componente en su etapa correspondiente.
@@ -100,8 +100,8 @@ _(Agregar imagen de la maqueta)_
 
 | Integrante | Rol |
 |------------|-----|
-| Julian Pulido | Diseño y construcción de la maqueta, Wiki |  
-| Farouk Abdala | Diseño y construcción de la maqueta, Montaje del hardware | 
+| Julián Pulido | Diseño y construcción de la maqueta, Wiki |  
+| Carlos Farouk Abdala | Diseño y construcción de la maqueta, Montaje del hardware | 
 | Juan Diego Garcia | HMI, programación y simulación |  
 
 
