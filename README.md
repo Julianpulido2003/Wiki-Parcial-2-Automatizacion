@@ -45,7 +45,6 @@ El sistema fue probado en diferentes escenarios para garantizar su correcto func
 _(Agregar imagen del diagrama)_
 
 ## Definición de Variables
-## Definición de Variables
 
 | #  | Nombre           | Atributo | Tipo  | Dirección | Estado Inicial | Descripción |
 |----|----------------|---------|------|------------|----------------|-------------|
@@ -78,9 +77,12 @@ La maqueta se diseñó dividiendo un cubo en tres zonas principales:
 
 ## Maqueta 
 
-
 ## Programación LADDER
-_(Agregar código y documentación de la programación en Ladder)_
+![image](https://github.com/user-attachments/assets/79c43f2c-a474-43b0-aaab-e6e0a70d649a)
+
+![image](https://github.com/user-attachments/assets/c35c8ee9-f0db-4fe0-874c-960e26fa9604)
+
+![image](https://github.com/user-attachments/assets/8b11bd5b-dc21-4b9c-825b-b0e7585a64d4)
 
 ## Implementación y Validación
 - **Pruebas de Sensores:** Se verificó el funcionamiento del sensor infrarrojo para la detección del vaso.
